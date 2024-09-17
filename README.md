@@ -1,3 +1,3 @@
 # welcome to hack4impact!
 
-### alpha - HTML+CSS workshop sessions 
+### alpha - the repository for the HTML + CSS workshop sessions 
