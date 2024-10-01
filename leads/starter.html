@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="final_styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -11,10 +11,10 @@
         <h1>Your Name</h1>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#exp">Experiences</a>
     </div>
     <div id="profile">
-        <div><img width="250" src="images/headshot_ex.png" /></div>
+        <div><img width="250" src="images/profile-icon.png" /></div>
         <div id="profile-text">
           <p>Hello, I am</p>
           <h2>Your Name</h2>
@@ -51,7 +51,7 @@
         </div>
       </div>
   
-      <div id="projects"></div>
+      <div id="projects">
         <h2>Projects:</h2>
         <div class="project">
           <h4>Project 1 Name</h4>
@@ -64,20 +64,42 @@
           <a target="_blank" href="https://github.com/">GitHub</a>
         </div>
       </div>
-      <div id="contact"></div>
-        <h2>Contact Me</h2>
-        <form action="form-handler.php" method="POST">
-          <label for="name">Name:</label><br>
-          <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
-          
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
-          
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea><br><br>
-          
-          <button type="submit">Send Message</button>
-        </form>
+
+      <div id="exp">
+        <h2>Experiences:</h2>
+        <div class="job">
+          <h3>Job Title</h3>
+          <h4>Company Name, Location, State</h4>
+          <p class="date">Dates - Dates</p>
+          <ul>
+            <li>
+              Write some stuff
+            </li>
+            <li>
+              Write some stuff
+            </li>
+            <li>
+              Write some stuff
+            </li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Job Title</h3>
+          <h4>Company Name, Location, State</h4>
+          <p class="date">Dates - Dates</p>
+          <ul>
+            <li>
+              Write some stuff
+            </li>
+            <li>
+              Write some stuff
+            </li>
+            <li>
+              Write some stuff
+            </li>
+          </ul>
+        </div>
+        <!-- Add more experiences as needed -->
       </div>
   </body>
 </html>
