@@ -141,7 +141,7 @@ button {
   border: 0.2rem solid #333;
   border-radius: 0.5rem;
   background-color: #333;
-  color: #dedede;
+  color: #fff;
   font-size: 1.3rem;
   font-weight: bold;
   margin-top: 1rem;
@@ -161,7 +161,6 @@ button:hover {
 
 .project button {
   padding-left: 0.5rem;
-  color: white;
 }
 
 .project button:hover {
