@@ -177,3 +177,13 @@ button:hover .github-inline {
   margin-right: 1px;
   filter: invert(1);
 }
+
+.toggler {
+  position: absolute;
+  left: 0;
+  font-size: medium;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 0;
+}
