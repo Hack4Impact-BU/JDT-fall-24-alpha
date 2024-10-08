@@ -114,6 +114,7 @@ input[type="text"]:focus {
   text-align: center;
   font-size: 30px;
   margin-bottom: 15px;
+  position: relative;
 }
 
 #about h3 {
