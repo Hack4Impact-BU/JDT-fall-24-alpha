@@ -83,6 +83,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#chat .chatbot-response {
+  width: 50%;
+  margin-right: auto;
+  background-color: #dedede;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#chat .user-message {
+  width: 50%;
+  margin-left: auto;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 form {
